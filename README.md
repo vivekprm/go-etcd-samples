@@ -32,7 +32,8 @@ docker run \
   --initial-cluster node1=http://${NODE1}:2380
 ```
 
-More detailed instructions can be find [here](https://etcd.io/docs/v3.5/op-guide/container/).
+More detailed instructions for complex setups can be find [here](https://etcd.io/docs/v3.5/op-guide/container/).
+FAQ docs can be find [here](https://etcd.io/docs/v3.5/faq/).
 
 listen-client-urls and listen-peer-urls specify the local addresses etcd server binds to for accepting incoming connections. To listen on a port for all interfaces, specify 0.0.0.0 as the listen IP address.
 
