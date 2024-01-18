@@ -45,3 +45,13 @@ etcdctl --endpoints=http://${NODE1}:2379 member list
 etcdctl --endpoints=http://0.0.0.0:2379 put greeting "Hello, etcd"
 etcdctl --endpoints=http://0.0.0.0:2379 get greeting
 ```
+
+# References
+Learn about more ways to configure and use etcd from the following pages:
+
+- Explore the gRPC [API](https://etcd.io/docs/v3.5/learning/api).
+- Set up a [multi-machine cluster](https://etcd.io/docs/v3.5/op-guide/clustering).
+- Learn how to [configure](https://etcd.io/docs/v3.5/op-guide/configuration) etcd.
+- Find [language bindings and tools](https://etcd.io/docs/v3.5/integrations).
+- Use TLS to [secure an etcd cluster](https://etcd.io/docs/v3.5/op-guide/security).
+- [Tune etcd](https://etcd.io/docs/v3.5/tuning).
